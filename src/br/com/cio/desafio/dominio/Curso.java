@@ -4,13 +4,13 @@ import java.time.LocalDate;
 
 public class Curso extends Conteudo{
 
-    private int cargaHoraria;
+    private int cargaHoraria ;
 
     /*Metodos GET e SET*/
 
     @Override
     public double calculaXp() {
-        return XP_PADRAO*cargaHoraria;
+        return XP_PADRAO * cargaHoraria;
     }
 
 
